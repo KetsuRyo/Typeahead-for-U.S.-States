@@ -1,0 +1,18 @@
+#results {
+  border: 1px solid #ccc;
+  border-top: none;
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  width: calc(100% - 2px);
+  display: none;
+}
+
+.result-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.result-item:hover, .result-item.selected {
+  background-color: #f0f0f0;
+}
